@@ -20,5 +20,8 @@ https://aws.amazon.com/ko/getting-started/tutorials/create-microsoft-sql-db/?trk
 #Amazon RDS 데이터베이스 인스턴스가 있는 단일 EC2 인스턴스 웹 서버 호스팅 가이드 라인 URL
 https://aws.amazon.com/ko/websites/getting-started/
 
+#AWS 웹서버 및 RDS 데이터베이스 생성 가이드 URL
+https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/TUT_WebAppWithRDS.html
+
 #참고 블로그
 https://jongmin92.github.io/2017/07/17/Emily/6-aws-s3-static-web-hosting/    //AWS S3를 이용한 웹 호스팅
