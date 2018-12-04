@@ -17,5 +17,8 @@ https://aws.amazon.com/ko/getting-started/tutorials/create-mysql-db/?trk=gs_card
 #3.1 MSSQL 데이터베이스 연동 Guideline
 https://aws.amazon.com/ko/getting-started/tutorials/create-microsoft-sql-db/?trk=gs_card
 
+#Amazon RDS 데이터베이스 인스턴스가 있는 단일 EC2 인스턴스 웹 서버 호스팅 가이드 라인 URL
+https://aws.amazon.com/ko/websites/getting-started/
+
 #참고 블로그
 https://jongmin92.github.io/2017/07/17/Emily/6-aws-s3-static-web-hosting/    //AWS S3를 이용한 웹 호스팅
