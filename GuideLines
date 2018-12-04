@@ -1,0 +1,19 @@
+# AWS 자습서 link
+https://aws.amazon.com/ko/getting-started/use-cases/?awsm.page=1
+
+
+#1 AWS 자습서/ 도메인 네임 등록 Guideline
+https://aws.amazon.com/ko/getting-started/tutorials/get-a-domain/?trk=gs_card
+
+#2 AWS 자습서/ 정적 웹 사이트 호스팅 Guideline
+https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html?refid=gs_card
+
+#2.1 AWS 자습서/ WordPress 웹사이트 시작 Guideline
+https://aws.amazon.com/ko/getting-started/tutorials/launch-a-wordpress-website/?trk=gs_card
+
+#3 AWS 자습서/ MySQL 데이터베이스 연동 Guideline
+https://aws.amazon.com/ko/getting-started/tutorials/create-mysql-db/?trk=gs_card
+
+#3.1 MSSQL 데이터베이스 연동 Guideline
+https://aws.amazon.com/ko/getting-started/tutorials/create-microsoft-sql-db/?trk=gs_card
+
