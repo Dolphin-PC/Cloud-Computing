@@ -4,7 +4,7 @@
 # Contents
     1. 웹 제작
     2. 사용자 지정 도메인 등록
-    3. 동적 웹 사이트 설정
+    3. 정적 웹 사이트 설정
 
 # URL
     참고 사이트 : https://docs.aws.amazon.com/ko_kr/Route53/latest/DeveloperGuide/domain-register.html
@@ -41,7 +41,7 @@
     
     3. 웹 사이트 호스팅용 버킷 구성
         1. Amazon S3 콘솔 열기
-        2. [Bucket name]목록에서 동적 웹 사이트 호스팅을 활성화하려는 버킷 이름 선택
+        2. [Bucket name]목록에서 정적 웹 사이트 호스팅을 활성화하려는 버킷 이름 선택
         3. [Properties] 선택
         4. [Static website hosting] 선택
         5. 웹 사이트 호스팅을 위해 example.com버킷을 구성합니다
