@@ -26,3 +26,4 @@ https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/TUT_WebAppWithRDS.h
 #참고 블로그
 https://jongmin92.github.io/2017/07/17/Emily/6-aws-s3-static-web-hosting/    //AWS S3를 이용한 웹 호스팅
 https://m.blog.naver.com/wool613/221286931692         //AWS를 활용해 웹서버 
+https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/putty.html        //Putty를 사용하여 Windows에 Linux 인스턴스 
