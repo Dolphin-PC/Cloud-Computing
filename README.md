@@ -4,7 +4,7 @@
 # Contents
     1. 웹 제작
     2. 사용자 지정 도메인 등록
-    3. 정적 웹 사이트 설정
+    3. 동적 웹 사이트 설정
 
 # URL
     참고 사이트 : https://docs.aws.amazon.com/ko_kr/Route53/latest/DeveloperGuide/domain-register.html
@@ -34,4 +34,4 @@
            ex ) 이름이 example.com 이라는 버킷 생성
                 이름이 www.example.com 이라는 버킷 생성
         2. 웹 사이트 데이터를 example.com 버킷에 업로드
-        <img width="200" src="https://user-images.githubusercontent.com/45090202/49732774-0820f500-fcc3-11e8-8448-c657edcaf5be.png">
+           
