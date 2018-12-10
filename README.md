@@ -33,5 +33,5 @@
            S3에 사용자의 example.com 웹 사이트 호스팅하려면 이름이 동일한 버킷 생성
            ex ) 이름이 example.com 이라는 버킷 생성
                 이름이 www.example.com 이라는 버킷 생성
-        2. 웹 사이트 데이터를 example.com 버킷에 업로드
+        2. 웹 사이트 데이터를 example.com 버킷에 업로드 
            
