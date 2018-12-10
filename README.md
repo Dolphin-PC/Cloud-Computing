@@ -37,5 +37,16 @@
    ![1](https://user-images.githubusercontent.com/45090202/49733223-48cd3e00-fcc4-11e8-943e-748ecc523227.PNG)
    
         3. example.com을 사용자의 버킷 이름으로 대체해 다음 버킷 정책을 example.com버킷에 연결
+   ![2](https://user-images.githubusercontent.com/45090202/49733610-4c14f980-fcc5-11e8-9fb8-2b42af327b8b.PNG)
+    
+    3. 웹 사이트 호스팅용 버킷 구성
+        1. Amazon S3 콘솔 열기
+        2. [Bucket name]목록에서 동적 웹 사이트 호스팅을 활성화하려는 버킷 이름 선택
+        3. [Properties] 선택
+        4. [Static website hosting] 선택
+        5. 웹 사이트 호스팅을 위해 example.com버킷을 구성합니다
+           Index Document에 인덱스 페이지의 이름을 입력합니다.
+     
+
         
 
