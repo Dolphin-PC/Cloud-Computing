@@ -10,7 +10,7 @@
     참고 사이트 : https://docs.aws.amazon.com/ko_kr/Route53/latest/DeveloperGuide/domain-register.html
 
 # Guide Line
-    도메인 등록
+    1. 도메인 등록
     Route 53 이용하여 등록
         1. AWS Management 콘솔에 로그인한 다음 Route 53 콘솔 열기
         2. [Domain Registration] 아래에서 [Get Started Now] 선택
@@ -27,5 +27,11 @@
             사용한적 없는 등록자로 지정하고 해당 주소 유효한지 확인
         12. 검토 후 [Complete Purchase] 선택
         13. 모든 TLD에 대해 도메인 등록 승인되면 이메일 발송
-        
-      
+    
+    2. 버킷의 생성과 구성, 데이터 업로드
+        1. 두 개의 버킷 생성
+           S3에 사용자의 example.com 웹 사이트 호스팅하려면 이름이 동일한 버킷 생성
+           ex ) 이름이 example.com 이라는 버킷 생성
+                이름이 www.example.com 이라는 버킷 생성
+        2. 웹 사이트 데이터를 example.com 버킷에 업로드
+        <img width="200" src="https://user-images.githubusercontent.com/45090202/49732774-0820f500-fcc3-11e8-8448-c657edcaf5be.png">
