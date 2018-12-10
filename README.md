@@ -46,7 +46,14 @@
         4. [Static website hosting] 선택
         5. 웹 사이트 호스팅을 위해 example.com버킷을 구성합니다
            Index Document에 인덱스 페이지의 이름을 입력합니다.
-     
+        6. [Save] 선택
+   ![3](https://user-images.githubusercontent.com/45090202/49733810-d8bfb780-fcc5-11e8-9598-006f0685a1dc.PNG)
 
+    4. 웹 사이트 리디렉션 구성
+        1. Amazon S3 콘솔의 [Buckets] 목록에서 원하는 버킷(이 예제에서는 www.example.com) 선택
+        2. [Properties] 선택
+        3. [Static website hosting] 선택
+        4. [Redirect requests]를 선택, [Target bucket or domain]에 example.com 입력
+        5. [Save] 선택
         
 
