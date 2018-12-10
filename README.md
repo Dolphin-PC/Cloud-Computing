@@ -77,7 +77,14 @@
             - 라우팅 정책 : [Simple] 수락
             - 대상 상태 평가 : [No] 수락
         6. www.example.com의 경우 위에 단계 반복하여 레코드 생성
+   ![5](https://user-images.githubusercontent.com/45090202/49734266-15d87980-fcc7-11e8-9b41-8b40d3461e2d.PNG)
+   
+    8. 테스트
+        웹 사이트가 정확하게 운영되는지 확인하려면 브라우저에서 다음 URL을 시도
+        * http://example.com – example.com 버킷의 인덱스 문서를 표시
+        * http://www.example.com – 요청을 http://example.com로 리디렉션
         
+
    
 
 
