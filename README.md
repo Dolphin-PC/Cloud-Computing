@@ -55,5 +55,29 @@
         3. [Static website hosting] 선택
         4. [Redirect requests]를 선택, [Target bucket or domain]에 example.com 입력
         5. [Save] 선택
+   ![4](https://user-images.githubusercontent.com/45090202/49734017-5d123a80-fcc6-11e8-8f80-ce606f0f30aa.PNG)
+   
+    5. 웹 사이트 트래픽용 로깅 구성
+        선택적으로 로깅을 구성하여 웹 사이트에 접속하는 방문자들의 수를 추적할 수 있습니다. 
+        이렇게 하기 위해 루트 도메인 버킷에 대한 로깅을 활성화 할 수 있습니다.
         
+    6. 엔드포인트 및 리디렉션 테스트
+        웹 사이트를 테스트하려면 브라우저에 엔드포인트 URL을 입력합니다. 
+        요청이 리디렉션되고 브라우저에 example.com에 대한 인덱스 문서가 표시됩니다.
+        
+    7. example.com 과 www.example.com의 별칭 레코드 추가
+        1. https://console.aws.amazon.com/route53/에서 Route 53 콘솔 열기
+        2. 탐색 창에서 [Hosted zones] 선택
+        3. 호스팅 영역 목록에서 도메인의 이름을 선택
+        4. [Create Record Set] 선택
+        5. 다음 값 지정 
+            - 이름 지정
+            - 유형 : [A – IPv4 address]를 선택
+            - 별칭 : [Yes] 선택
+            - 라우팅 정책 : [Simple] 수락
+            - 대상 상태 평가 : [No] 수락
+        6. www.example.com의 경우 위에 단계 반복하여 레코드 생성
+        
+   
+
 
