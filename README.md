@@ -3,8 +3,8 @@
 
 # Contents
     1. 웹 제작
-    2. 사용자 지정 도메인 등록
-    3. 정적 웹 사이트 설정
+    2. 정적 웹 사이트 설정
+    3. 사용자 지정 도메인 등록
 
 # URL
     참고 사이트 : https://docs.aws.amazon.com/ko_kr/Route53/latest/DeveloperGuide/domain-register.html
@@ -31,8 +31,8 @@
     2. 버킷의 생성과 구성, 데이터 업로드
         1. 두 개의 버킷 생성
            S3에 사용자의 example.com 웹 사이트 호스팅하려면 이름이 동일한 버킷 생성
-           ex ) 이름이 example.com 이라는 버킷 생성
-                이름이 www.example.com 이라는 버킷 생성
+           ex ) 이름이 example.com 이라는 버킷 생성 (ccexample.com)
+                이름이 www.example.com 이라는 버킷 생성 (www.ccexample.com)
         2. 웹 사이트 데이터를 example.com 버킷에 업로드 
    ![1](https://user-images.githubusercontent.com/45090202/49733223-48cd3e00-fcc4-11e8-943e-748ecc523227.PNG)
    
