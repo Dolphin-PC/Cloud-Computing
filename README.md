@@ -34,4 +34,8 @@
            ex ) 이름이 example.com 이라는 버킷 생성
                 이름이 www.example.com 이라는 버킷 생성
         2. 웹 사이트 데이터를 example.com 버킷에 업로드 
-           
+   ![1](https://user-images.githubusercontent.com/45090202/49733223-48cd3e00-fcc4-11e8-943e-748ecc523227.PNG)
+   
+        3. example.com을 사용자의 버킷 이름으로 대체해 다음 버킷 정책을 example.com버킷에 연결
+        
+
