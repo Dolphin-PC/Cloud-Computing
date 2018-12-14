@@ -1,0 +1,167 @@
+h1,h2 {
+	text-shadow: 2px 2px 2px black; color : pink;
+	text-align: center;
+}
+
+.menubar { 
+	text-align:center;list-style:none;
+        border-bottom:1px solid gray; padding:10px 0;  
+	
+}
+
+.menubar li{
+	
+	list-style:none;
+	display : inline;
+	padding:0 10px; leter-spacing:10px
+
+}
+.menubar li a {
+   text-decoration: none;
+   font-size : 1.3em; color : black;
+}
+
+* { 
+margin: 0 auto;
+}
+
+.i2 {
+width:700px;
+height:400px;
+
+}
+
+.i1, .i3 {
+width :400px;
+height:300px;
+
+}
+
+.i4 , .i5, .i6{
+width :300px;
+height:300px;
+}
+
+.i7 {
+height : 255px;
+width: auto;
+}
+
+
+table {
+border-spacing: 5px 30px;
+}
+
+
+th{
+text-align: left;
+}
+
+td{
+text-align: center;
+}
+
+li{
+text-align: left;
+}
+
+.rec {
+list-style: none;
+margin:0px; padding:0px;
+}
+
+.rec li{
+line-height: 35px;
+border-bottom: 2px solid white;
+
+}
+
+.rec li a{
+
+background-color: #FBEFF8;
+text-decoration: none;
+display: block;
+text-shadow: 2px 2px 2px black; color : pink;
+text-align:center;
+font-weight: bold; font-size : 1.5em
+}
+
+
+.rec li a:hover {
+background : pink;
+}
+
+a{
+text-decoration: none;
+color:black;
+}
+
+#def{
+text-align: center;
+}
+
+#def_text {
+text-align: right;
+}
+
+.t{
+background:#FBEFF8;
+}
+
+dd{text-indent:10px;
+}
+
+#con{
+width:500px;
+height:1000px;
+float:left;
+margin: auto;
+
+}
+
+
+#contents{
+width:800px;
+float:left;
+margin: auto;
+
+}
+
+#cont{
+width:200px;
+height:1000px;
+float:left;
+}
+
+#pl {
+text-align: center;
+text-shadow: 2px 2px 2px black; color : pink;
+}
+
+#but {
+text-align: right;
+}
+
+.button {
+ text-shadow: 2px 2px 2px black; color : pink;
+    width:100px;
+    background-color: #F5A9E1;
+    border: none;
+    color:#fff;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.button:hover{
+background-color: pink;
+}
+
+caption { 
+caption-side:bottom; 
+text-shadow: 5px 5px 5px grey;
+}
