@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>LOST IT 회원가입</title>
+<link href="mystyle.css" rel="stylesheet" type="text/css">
+<style>
+td{
+text-align:left;
+}
+#header{
+z-index:2;
+}
+</style>
+</head>
+<body>
+
+	<div id="main">
+	<div id="left">&nbsp;</div>
+	<div id="center">
+	<div id="wrap">
+	<div id=header>
+		 <a href="main.jsp" target="_self"><img src="ditective1.png" width=75px; height=75px; align="center";></a>
+         <a href="main.jsp" target="_self"><img src="LOGO.PNG" width=230px; height=70px; align="center ";></a>
+	</div>
+		<div id="container">
+			<div id="content">
+				<div class="join">
+					</br></br>
+					<form action="userAction.jsp" method="post">
+						<table align="center">
+								<tr>
+								<td>아이디</td>
+								 </tr>
+								 <tr>
+								 <td><input type="text" name="userid" placeholder="아이디" class="inp-field" style="height:30px; width:300px"></td>
+								</tr>
+						</table>
+
+						<table align="center">
+								<tr>
+								<td><label for="user-pass" class="blind">비밀번호</label></td>
+								</tr>
+								<tr>
+								<td><input type="password" name="passwd" placeholder="비밀번호"
+									class="inp-field"style="height:30px; width:300px"> <span class="ico pass"></span></td>
+								</tr>
+
+						</table>
+
+						<table align="center">
+								<tr>
+								<td><label for="user-pass2" class="blind">비밀번호 재확인</label></td>
+								</tr>
+								<tr>
+								<td> <input
+									type="password" id="user-pass2" placeholder="비밀번호 재확인"
+									class="inp-field"style="height:30px; width:300px"> <span class="ico pass2"></span></td>
+									</tr>
+						</table>
+
+						<table align="center">
+								<tr>
+								<td><label for="user-name" class="blind">이름</label></td>
+								</tr>
+								<tr>
+								<td> <input type="text" name="username" placeholder="이름"
+									class="inp-field w458"style="height:30px; width:300px"></td>
+									</tr>
+									</table>
+														<table align="center">
+								<tr>
+								<td><label for="user-gender" class="blind">성별</label></td>
+								</tr>
+								<tr>
+								<td>
+								<select title="" name = "gender" style="height:30px; width:307px">
+								<option value="">성별</option>
+								<option value="여자">여자</option>
+								<option value="남자">남자</option>
+								</select>
+								</td>
+								</tr>
+								</table>
+			
+								<table align="center">
+								<tr>
+								<td><label for="user-birth">생일</label></td>
+								</tr>
+								<tr>
+								 <td><input type="text"
+									name="year" placeholder="년(4자)" maxlength="4"
+									title="년도를 4자리로 입력하세요" class="inp-field w130"style="height:30px; width:94px"> <span
+									class="field-wall"></span><input type="text" name = "year2"
+									placeholder="월" maxlength="2"
+									class="inp-field w145"style="height:30px; width:94px">  <span class="field-wall"></span> <input type="text" name="year3"
+									placeholder="일" maxlength="2"
+									class="inp-field w145"style="height:30px; width:94px">
+									</td>
+									</tr>
+									</table>
+									
+
+	<table align="center">
+	<tr>
+	
+								<td><label for="user-email" class="blind">본인확인 이메일</label></td>
+								</tr>
+								<tr>
+								 <td><input
+									type="text" name="email" placeholder="본인확인 이메일(선택)"
+									class="inp-field w458" style="height:30px; width:300px">
+									</td>
+									</tr>
+									</table>
+							
+				<table align="center">
+				<tr>
+				<td>
+								<label for="user-num" class="blind">휴대전화번호</label></td>
+								</tr>
+								<tr>
+								 <td><span
+									class="field-wall"></span> <input type="text" name="phone"
+									placeholder="휴대전화번호" title="휴대전화번호를 입력하세요"
+									class="inp-field w205"style="height:30px; width:300px">
+									</td>
+									</tr>
+									</table>
+						
+						<div class="btn-area">
+						<br/>
+							<input type="submit" value="가입하기" class="btn-submit" style="height:30px; width:305px">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		</div>
+
+	</div>
+	</div>
+
+</body>
+</html>
